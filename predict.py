@@ -75,7 +75,10 @@ def find_if_duplicate_questions(ques1, ques2):
 	pred = model.predict([q1_data
 		,q2_data])
 	print(pred)
-
+	if(pred > 0.5):
+		print("duplicate.")
+	else:
+		print("not duplicate.")
 
 if __name__ == "__main__":
     cli()
