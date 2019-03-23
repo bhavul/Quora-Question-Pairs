@@ -14,11 +14,17 @@ In face recognition, a siamese network is often used to tell if two face picture
 ## Project Structure
 
 `predict.py` : To make a prediction
+
 `train_model.py` : To train the model
+
 `quora-question-pairs.ipynb` : The jupyter notebook that contains all the steps I followed to finally create the model
+
 `dictionary.json` : This contains word indices built from tokenizing all the questions in the training set
+
 `train.csv` : The training file provided
+
 `requirements.txt` : For installing all requirements to run this project
+
 `model.json` : The keras model which is finally used. This is loaded when you run predict.py
 
 The weights file is available [here](https://drive.google.com/open?id=1-96-hj0tDjoLXW4wESu7LTRrC-t4iiX6). After downloading, put it in the same directory as these files. 
